@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Restaurant App
+![Screenshot from 2024-11-09 22-52-04](https://github.com/user-attachments/assets/81af5562-9108-4689-ba5a-03d8813087f7)
+![Screenshot from 2024-11-09 22-52-14](https://github.com/user-attachments/assets/3484d677-9f58-4308-a81d-daa6d706b87c)
+![Screenshot from 2024-11-09 22-52-27](https://github.com/user-attachments/assets/c9371b93-c41e-4eb9-bc94-c21aaece73d0)
+![Screenshot from 2024-11-09 22-53-01](https://github.com/user-attachments/assets/d3e3267f-9583-4664-9579-0b15cc7e842e)
+![Screenshot from 2024-11-09 22-53-08](https://github.com/user-attachments/assets/ecd2e431-a6db-4997-98e3-3181572f65a8)
+![Screenshot from 2024-11-09 22-56-54](https://github.com/user-attachments/assets/9f0b7f7c-e18e-4a72-95a5-4aa5f05ef118)
+![Screenshot from 2024-11-09 22-57-05](https://github.com/user-attachments/assets/ca5a631b-bb01-451c-b023-21b0921906ef)
+![Screenshot from 2024-11-09 22-57-09](https://github.com/user-attachments/assets/78b92ba1-73ae-4447-b7a7-aaaf67a6a645)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic and fully responsive restaurant web application built with React. Users can browse a list of recipes, add items to their cart, manage their watchlist, and complete the checkout process. The app includes features like a recipe listing, a horizontal scroll of products, and a checkout form where users can view their total amount.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Product**:
+  - Quick access to the product categories.
+  - Allows users to navigate between different food categories or recipes.
+  - Displays a listing of available recipes.
+  - Horizontal scroll for easy navigation through different recipes.
 
-### `npm start`
+- **Cart Functionality**:
+  - Users can add products to the cart.
+  - Users can delete items from the cart.
+  - Display the total amount of items in the cart and the total price.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Watchlist**:
+  - Users can add items to a watchlist.
+  - Users can remove items from the watchlist.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Checkout**:
+  - Users can view a checkout form, with fields for contact information and delivery details.
+  - Display the total amount in the cart before proceeding to checkout.
+  
+- **Responsive Design**: The app is fully responsive and works on both desktop and mobile devices.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**:
+  - React
+  - React Router (for navigation)
+  - CSS, Bootstrap (for styling)
+  - Context API (for state management like cart and watchlist)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js and npm (Node Package Manager) installed on your machine.
 
-### `npm run eject`
+### Steps
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AreshNatarajan/react-restaurant-app.git
+   cd restaurant-app
