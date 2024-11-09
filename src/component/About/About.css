@@ -1,0 +1,9 @@
+.para{
+    width: 50%;
+}
+
+@media (max-width:700px) {
+    .para{
+        width: 100%;
+    }
+}
